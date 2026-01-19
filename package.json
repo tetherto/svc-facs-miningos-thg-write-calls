@@ -1,0 +1,33 @@
+{
+  "name": "svc-facs-miningos-thg-write-calls",
+  "version": "0.0.1",
+  "description": "svc facility for miningos thing write calls",
+  "keywords": [
+    "tether"
+  ],
+  "author": "Tether",  
+  "license": "Apache-2.0",
+  "engine": {
+    "node": ">=20.0"
+  },  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tetherto/svc-facs-miningos-thg-write-calls.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "test": "npm run lint && npm run test:unit",
+    "test:unit": "brittle tests/unit/*.js",
+    "test:coverage": "brittle --coverage tests/unit/*.test.js"
+  },
+  "dependencies": {
+    "async": "3.2.6",
+    "bfx-facs-base": "git+https://github.com/bitfinexcom/bfx-facs-base.git"
+  },
+  "devDependencies": {
+    "brittle": "3.16.3",
+    "standard": "17.1.2"
+  }
+}
