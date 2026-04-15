@@ -19,7 +19,8 @@
     "node": ">=20"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "src/"
   ],
   "type": "commonjs",  
   "main": "index.js",
