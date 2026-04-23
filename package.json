@@ -1,11 +1,11 @@
 {
   "name": "svc-facs-miningos-thg-write-calls",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "svc facility for miningos thing write calls",
   "keywords": [
     "tether"
   ],
-  "author": "Tether",  
+  "author": "Tether",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
     "index.js",
     "src/"
   ],
-  "type": "commonjs",  
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "lint": "standard",
