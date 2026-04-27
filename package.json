@@ -1,5 +1,5 @@
 {
-  "name": "svc-facs-miningos-thg-write-calls",
+  "name": "@tetherto/svc-facs-miningos-thg-write-calls",
   "version": "1.0.0",
   "description": "svc facility for miningos thing write calls",
   "keywords": [
