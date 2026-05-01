@@ -32,8 +32,8 @@
     "test:coverage": "brittle --coverage tests/unit/*.test.js"
   },
   "dependencies": {
-    "async": "3.2.6",
-    "bfx-facs-base": "git+https://github.com/bitfinexcom/bfx-facs-base.git"
+    "@bitfinex/bfx-facs-base": "1.1.0",
+    "async": "3.2.6"
   },
   "devDependencies": {
     "brittle": "3.16.3",
