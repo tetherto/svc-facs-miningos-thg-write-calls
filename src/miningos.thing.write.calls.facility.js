@@ -1,7 +1,7 @@
 'use strict'
 
 const async = require('async')
-const BaseFacility = require('bfx-facs-base')
+const BaseFacility = require('@bitfinex/bfx-facs-base')
 
 class MiningOSThingWriteCallsFacility extends BaseFacility {
   constructor (caller, opts, ctx) {
